@@ -20,7 +20,6 @@
   ],
   "author": "Miguel Cabrerizo",
   "license": "MIT",
-  "private": false,
   "files": [
     "lib/**/*"
   ],
