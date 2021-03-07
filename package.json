@@ -1,6 +1,6 @@
 {
   "name": "@doncicuto/es-autonomous-communities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array containing the name and INE code of Spain's autonomous communities",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -31,9 +31,9 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.ts",
     "prepare": "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "git add -A src",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
