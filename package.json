@@ -2,7 +2,8 @@
   "name": "@doncicuto/es-autonomous-communities",
   "version": "1.0.0",
   "description": "Array containing the name and INE code of Spain's autonomous communities",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doncicuto/es-autonomous-communities.git"
@@ -16,6 +17,8 @@
     "Spain",
     "Comunidades autónomas",
     "Autonomous communities",
+    "territorios",
+    "territories",
     "INE"
   ],
   "author": "Miguel Cabrerizo",
@@ -26,7 +29,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint '**/*.ts'",
+    "lint": "eslint . --ext .js,.ts",
     "prepare": "npm run build",
     "prepublishOnly" : "npm test && npm run lint",
     "preversion" : "npm run lint",

@@ -25,15 +25,28 @@ The default export is an array of objects with the following structure:
 | `code`   | `string` | Autonomous Community INE code | `07`              |
 | `name`   | `string` | Autonomous community name     | `Castilla y León` |
 
-Example:
+Example (Browser):
 
-```js
-import communities from "@doncicuto/es-autonomous-communities";
+```ts
+import { communities } from "@doncicuto/es-autonomous-communities";
 console.log(communities);
 
 const names = communities.map((c) => c.name);
 console.log(names);
 
-const codes = provinces.map((c) => c.code);
+const codes = communities.map((c) => c.code);
+console.log(codes);
+```
+
+Example (NodeJS):
+
+```js
+const communities = require("@doncicuto/es-autonomous-communities").default;
+console.log(communities);
+
+const names = communities.map((c) => c.name);
+console.log(names);
+
+const codes = communities.map((c) => c.code);
 console.log(codes);
 ```
