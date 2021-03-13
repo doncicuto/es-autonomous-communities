@@ -1,8 +1,10 @@
 # ES-Autonomous-Communities
 
-Communities names and codes as shown in INE (Spain's National Statistics Institute)
+Spain's autonomous communities names and codes as provided by INE (Spain's National Statistics Institute) for easier use in Javascript projects.
 
 Reference: [https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm](https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm)
+
+See [CHANGELOG](https://github.com/doncicuto/es-autonomous-communities/blob/main/CHANGELOG.md) for more information about versions.
 
 ## Install
 

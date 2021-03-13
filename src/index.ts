@@ -21,8 +21,8 @@ const communities: AutonomousCommunity[] = [
   { code: "15", name: "Comunidad Foral de Navarra" },
   { code: "16", name: "País Vasco" },
   { code: "17", name: "La Rioja" },
-  { code: "18", name: "Ceuta" },
-  { code: "19", name: "Melilla" },
+  { code: "18", name: "Ciudad Autónoma de Ceuta" },
+  { code: "19", name: "Ciudad Autónoma de Melilla" },
 ];
 
 export default communities;
