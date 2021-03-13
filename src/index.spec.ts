@@ -13,8 +13,12 @@ describe("communities array", () => {
     expect(communities[0].code).toBe("01");
   });
 
-  it("check last community name to be Melilla", () => {
-    expect(communities[18].name).toBe("Melilla");
+  it("check last community name to be Ciudad Autónoma de Ceuta", () => {
+    expect(communities[17].name).toBe("Ciudad Autónoma de Ceuta");
+  });
+
+  it("check last community name to be Ciudad Autónoma de Melilla", () => {
+    expect(communities[18].name).toBe("Ciudad Autónoma de Melilla");
   });
 
   it("check last community code to be 19", () => {
